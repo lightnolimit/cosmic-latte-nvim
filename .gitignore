@@ -10,3 +10,6 @@
 # Editor directories
 .vscode/
 .idea/
+
+# Local configuration
+CLAUDE.md
