@@ -10,7 +10,7 @@ M.colors = {
   base0 = "#839496",  -- comments / secondary content
   base1 = "#93a1a1",  -- emphasized content
   base2 = "#eee8d5",  -- background highlights
-  base3 = "#fdf6e3",  -- background
+  base3 = "#fff8e7",  -- background (actual cosmic latte color of the universe)
   
   -- Accent colors
   yellow = "#b58900",
@@ -19,7 +19,7 @@ M.colors = {
   magenta = "#d33682",
   violet = "#6c71c4",
   blue = "#268bd2",
-  cyan = "#2aa198",
+  cyan = "#6E5064",  -- cosmic spectrum green (the false color easter egg)
   green = "#859900",
   
   -- Cosmic latte special colors
