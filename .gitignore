@@ -1,0 +1,12 @@
+# Neovim
+.netrwhist
+*~
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/

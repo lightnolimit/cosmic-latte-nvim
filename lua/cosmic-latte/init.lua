@@ -8,8 +8,15 @@ M.setup = function(opts)
     vim.opt.termguicolors = true
   end
   
-  -- Load the colorscheme
-  vim.cmd("colorscheme cosmic-latte")
+  -- Get variant from global variable or default to 'dim'
+  local variant = vim.g.cosmic_latte_variant or "dim"
+  
+  -- Load the appropriate colorscheme
+  if variant == "light" then
+    vim.cmd("colorscheme cosmic-latte")
+  else
+    vim.cmd("colorscheme cosmic-latte-dim")
+  end
 end
 
 return M

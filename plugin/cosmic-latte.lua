@@ -1,4 +1,8 @@
--- Auto-command to set up the theme
-vim.api.nvim_create_user_command("CosmicLatte", function()
+-- Create commands to switch between themes
+vim.api.nvim_create_user_command("CosmicLatteDim", function()
+  vim.cmd("colorscheme cosmic-latte-dim")
+end, { desc = "Switch to Cosmic Latte Dim theme (Cosmic Mocha Latte)" })
+
+vim.api.nvim_create_user_command("CosmicLatteLight", function()
   vim.cmd("colorscheme cosmic-latte")
-end, { desc = "Apply Cosmic Latte colorscheme" })
+end, { desc = "Switch to Cosmic Latte Light theme" })
