@@ -76,8 +76,48 @@ vim.cmd.colorscheme("cosmic-latte")
 ### Light Theme (Cosmic Latte)
 Inspired by the actual average color of the universe (#fff8e7). Clean and bright for daytime coding with soft pastels.
 
+#### Light Theme Color Palette
+- **Background**: `#fdf6e3` (warm off-white)
+- **Background Highlights**: `#eee8d5` (subtle gray)
+- **Cursor Line**: `#eee8d5` (subtle highlight)
+- **Text**: `#073642` (very dark blue-gray for high contrast)
+- **Comments**: `#839496` (medium gray)
+- **Line Numbers**: `#657b83` (muted gray)
+- **Cursor**: `#002b36` (very dark, almost black)
+
+#### Light Theme Syntax Colors
+- **Strings**: `#073642` (dark text)
+- **Numbers/Constants**: `#2aa198` (cyan)
+- **Functions**: `#268bd2` (blue)
+- **Keywords/Statements**: `#859900` (green)
+- **Types**: `#6c71c4` (violet)
+- **Special/Preprocessor**: `#e53e3e` (bright red)
+- **Errors**: `#dc322f` (red)
+- **Warnings**: `#b58900` (yellow)
+- **Cosmic Accent**: `#e67a6b` (coral) / `#ff8e7f` (bright coral for highlights)
+
 ### Dim Theme (Cosmic Mocha Latte)
 A darker, more subdued variant perfect for extended coding sessions.
+
+#### Dim Theme Color Palette
+- **Background**: `#1a1a1a` (very dark gray)
+- **Background Highlights**: `#2d2d2d` (dark gray)
+- **Cursor Line**: `#2d2d2d` (subtle highlight)
+- **Text**: `#f5f5f5` (very light gray for high contrast)
+- **Comments**: `#8a8a8a` (medium gray)
+- **Line Numbers**: `#8a8a8a` (medium gray)
+- **Cursor**: `#f5f5f5` (white)
+
+#### Dim Theme Syntax Colors
+- **Strings**: `#f5f5f5` (light text)
+- **Numbers/Constants**: `#2aa198` (cyan)
+- **Functions**: `#268bd2` (blue)
+- **Keywords/Statements**: `#859900` (green)
+- **Types**: `#6c71c4` (violet)
+- **Special/Preprocessor**: `#e53e3e` (bright red)
+- **Errors**: `#dc322f` (red)
+- **Warnings**: `#b58900` (yellow)
+- **Cosmic Accent**: `#ff8e7f` (bright coral) / `#e67a6b` (darker coral variant)
 
 ## Requirements
 
