@@ -58,7 +58,7 @@ colorscheme cosmic-latte
 
 ### Commands
 
-- `:CosmicLatteLight` - Switch to Light theme (Cosmic Latte)
+- `:CosmicLatte` - Switch to Light theme (Cosmic Latte)
 - `:CosmicLatteDim` - Switch to Dim theme (Cosmic Mocha Latte)
 
 ### Configuration
@@ -103,5 +103,4 @@ MIT License - Feel free to use, modify, and distribute!
 ## 🙏 Acknowledgments
 
 - Inspired by the [Solarized](https://ethanschoonover.com/solarized/) color scheme
-- Built for the amazing [Neovim](https://neovim.io/) community
 - Based on [Cosmic Latte](https://en.wikipedia.org/wiki/Cosmic_latte) - the average color of the universe
