@@ -1,14 +1,15 @@
 # Cosmic Latte Theme for Neovim
 
-A solarized-inspired colorscheme for Neovim with a cosmic coral accent. Features both light and dim variants.
+A solarized-inspired colorscheme for Neovim based on the average color of the universe. Features both light (Cosmic Latte) and dim (Cosmic Mocha Latte) variants.
 
 ## Features
 
-- Light variant (`cosmic-latte`)
-- Dim variant (`cosmic-latte-dim`) - default theme
+- Light variant - Cosmic Latte (the actual color of the universe #fff8e7)
+- Dim variant - Cosmic Mocha Latte (default theme)
 - Full LSP, Treesitter, and plugin support
 - Git status colors and diagnostic highlighting
 - Cosmic coral accent (`#ff8e7f`)
+- Easter egg: Cosmic spectrum green (`#6E5064`) - the false color from the original misinterpretation
 
 ## Installation
 
@@ -57,8 +58,8 @@ colorscheme cosmic-latte
 
 ### Commands
 
-- `:CosmicLatteLight` - Switch to light theme
-- `:CosmicLatteDim` - Switch to dim theme (Cosmic Mocha Latte)
+- `:CosmicLatteLight` - Switch to Light theme (Cosmic Latte)
+- `:CosmicLatteDim` - Switch to Dim theme (Cosmic Mocha Latte)
 
 ### Configuration
 
@@ -72,8 +73,8 @@ vim.cmd.colorscheme("cosmic-latte")
 
 ## Variants
 
-### Light Theme
-Clean and bright for daytime coding with soft pastels.
+### Light Theme (Cosmic Latte)
+Inspired by the actual average color of the universe (#fff8e7). Clean and bright for daytime coding with soft pastels.
 
 ### Dim Theme (Cosmic Mocha Latte)
 A darker, more subdued variant perfect for extended coding sessions.
@@ -103,3 +104,4 @@ MIT License - Feel free to use, modify, and distribute!
 
 - Inspired by the [Solarized](https://ethanschoonover.com/solarized/) color scheme
 - Built for the amazing [Neovim](https://neovim.io/) community
+- Based on [Cosmic Latte](https://en.wikipedia.org/wiki/Cosmic_latte) - the average color of the universe
