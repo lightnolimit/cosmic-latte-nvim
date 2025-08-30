@@ -1,11 +1,12 @@
 # Cosmic Latte Theme for Neovim
 
-A solarized-inspired colorscheme for Neovim based on the average color of the universe. Features both light (Cosmic Latte) and dim (Cosmic Mocha Latte) variants.
+A solarized-inspired colorscheme for Neovim based on the average color of the universe. Features light (Cosmic Latte), dim (Cosmic Mocha Latte), and transparent variants.
 
 ## Features
 
 - Light variant - Cosmic Latte (the actual color of the universe #fff8e7)
 - Dim variant - Cosmic Mocha Latte (default theme)
+- Transparent variant - Dark theme with transparent background
 - Full LSP, Treesitter, and plugin support
 - Git status colors and diagnostic highlighting
 - Cosmic coral accent (`#ff8e7f`)
@@ -22,7 +23,7 @@ A solarized-inspired colorscheme for Neovim based on the average color of the un
   priority = 1000,
   config = function()
     -- Optional: Set default variant (defaults to 'dim')
-    vim.g.cosmic_latte_variant = "dim" -- or "light"
+    vim.g.cosmic_latte_variant = "dim" -- or "light" or "transparent"
     
     -- Load the colorscheme
     vim.cmd.colorscheme("cosmic-latte")
@@ -60,6 +61,7 @@ colorscheme cosmic-latte
 
 - `:CosmicLatte` - Switch to Light theme (Cosmic Latte)
 - `:CosmicLatteDim` - Switch to Dim theme (Cosmic Mocha Latte)
+- `:CosmicLatteTransparent` - Switch to Transparent theme
 
 ### Configuration
 
@@ -67,7 +69,7 @@ Set the default variant before loading the colorscheme:
 
 ```lua
 -- In your init.lua
-vim.g.cosmic_latte_variant = "dim" -- or "light"
+vim.g.cosmic_latte_variant = "dim" -- or "light" or "transparent"
 vim.cmd.colorscheme("cosmic-latte")
 ```
 
@@ -118,6 +120,22 @@ A darker, more subdued variant perfect for extended coding sessions.
 - **Errors**: `#dc322f` (red)
 - **Warnings**: `#b58900` (yellow)
 - **Cosmic Accent**: `#ff8e7f` (bright coral) / `#e67a6b` (darker coral variant)
+
+### Transparent Theme
+A dark theme with transparent background for terminal transparency support.
+
+#### Transparent Theme Color Palette
+- **Background**: `NONE` (transparent)
+- **Background Highlights**: `#2d2d2d` (dark gray)
+- **Cursor Line**: `#2d2d2d` (subtle highlight)
+- **Text**: `#f5f5f5` (very light gray for high contrast)
+- **Comments**: `#8a8a8a` (medium gray)
+- **Line Numbers**: `#8a8a8a` (medium gray)
+- **Cursor**: `#f5f5f5` (white)
+- **Floating Windows**: `#0f0f0f` (darker background for contrast)
+
+#### Transparent Theme Syntax Colors
+Same as the Dim theme but optimized for transparent backgrounds.
 
 ## Requirements
 
