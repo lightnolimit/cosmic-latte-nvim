@@ -40,13 +40,16 @@ local colors = {
   cursor_line_bg = "#2d2d2d", -- subtle cursor line
 }
 
+-- Collect all highlight commands
+local highlights = {}
+
 -- Helper function
 local function hi(group, opts)
   local cmd = "hi " .. group
   if opts.fg then cmd = cmd .. " guifg=" .. opts.fg end
   if opts.bg then cmd = cmd .. " guibg=" .. opts.bg end
   if opts.style then cmd = cmd .. " gui=" .. opts.style end
-  vim.cmd(cmd)
+  table.insert(highlights, cmd)
 end
 
 -- Editor - High contrast for dim theme
@@ -177,3 +180,6 @@ vim.g.terminal_color_15 = colors.base3
 -- Additional accessibility improvements
 hi("CursorIM", { fg = colors.base3, bg = colors.cosmic }) -- Input method cursor
 hi("lCursor", { fg = colors.base3, bg = colors.cosmic }) -- Language cursor
+
+-- Execute all highlights in a single command
+vim.cmd(table.concat(highlights, "\n"))
